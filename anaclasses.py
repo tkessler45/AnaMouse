@@ -61,3 +61,6 @@ class wave:
     @property
     #A COMMENT!!!
     def mean(self): return self.data[self.pcsrA:self.pcsrB].mean()
+
+    def testfunc(self):
+        pass
