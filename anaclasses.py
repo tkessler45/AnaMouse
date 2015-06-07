@@ -59,4 +59,5 @@ class wave:
         assert isinstance(newDeltaX, float)
         self.xdelta=newDeltaX
     @property
+    #A COMMENT!!!
     def mean(self): return self.data[self.pcsrA:self.pcsrB].mean()
